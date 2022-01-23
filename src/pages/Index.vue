@@ -221,9 +221,7 @@
                   <span :style="'color:'+theme_color">Proactive Swiss</span><br><span class="text-overline">Life Cycle Development</span>
                 </div>
                 <div class="q-mt-md text-h6 text-center">
-                  Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut<br>
-                  labore et dolore magna aliqua.
+                  Blabla
                 </div>
               </q-carousel-slide>
               <q-carousel-slide style="padding-bottom: 140px" name="tv" class="column no-wrap flex-center">

@@ -86,7 +86,7 @@
               <q-item>
                 <q-item-section avatar>
                   <q-avatar size="96px">
-                    <q-img src="/statics/images/df.jpg"></q-img>
+                    <q-img src="~assets/images/df.jpg"></q-img>
                   </q-avatar>
                 </q-item-section>
                 <q-item-section class="text-white">
@@ -216,7 +216,7 @@
             >
               <q-carousel-slide style="padding-bottom: 140px" name="style" class="column no-wrap flex-center">
                 <img :style="'margin-top:100px;border-radius:5px;border: 4px solid ' + theme_color"
-                     src="/statics/images/team_1.jpg" width=150 height=150>
+                     src="~assets/images/team_1.jpg" width=150 height=150>
                 <div class="q-mt-md text-h6 text-center">
                   <span :style="'color:'+theme_color">Proactive Swiss</span><br><span class="text-overline">Life Cycle Development</span>
                 </div>
@@ -228,7 +228,7 @@
               </q-carousel-slide>
               <q-carousel-slide style="padding-bottom: 140px" name="tv" class="column no-wrap flex-center">
                 <img :style="'margin-top:100px;border-radius:5px;border: 4px solid ' + theme_color"
-                     src="/statics/images/dna.jpg" width=150 height=150>
+                     src="~assets/images/dna.jpg" width=150 height=150>
                 <div class="q-mt-md text-h6 text-center">
                   <span :style="'color:'+theme_color">DNA Chain</span><br><span class="text-overline">Project executive and blockchain enthusiastic</span>
                 </div>
@@ -238,7 +238,7 @@
               </q-carousel-slide>
               <q-carousel-slide style="padding-bottom: 140px" name="layers" class="column no-wrap flex-center">
                 <img :style="'margin-top:100px;border-radius:5px;border: 4px solid ' + theme_color"
-                     src="/statics/images/team_3.jpg" width=150 height=150>
+                     src="~assets/images/team_3.jpg" width=150 height=150>
                 <div class="q-mt-md text-h6 text-center">
                   <span :style="'color:'+theme_color">John Doe</span><br><span
                   class="text-overline">Product Owner</span>
@@ -299,7 +299,7 @@
                       :style="'color: ' + about_heading_color_2" style="border: none;"
                       class="my-card text-center box-shadow" flat bordered>
                 <q-img
-                  src="/statics/images/about_2.jpg"
+                  src="~assets/images/about_2.jpg"
                 />
 
                 <q-card-section class="text-left">
@@ -454,7 +454,7 @@ export default {
   margin-top: 10px
 
 .quote
-  background: url(/statics/images/parallax_df.jpg)
+  background: url(~assets/images/parallax_df.jpg)
   background-size: cover
   background-position: center
   background-attachment: fixed

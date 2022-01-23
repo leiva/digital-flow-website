@@ -1,8 +1,8 @@
 {
-  "name": "vue-quasar-company-profile-website",
-  "version": "0.0.1",
-  "description": "Free template for office website.",
-  "productName": "Company Profile Website Using Quasar",
+  "name": "digital-flow-website",
+  "version": "1.0.0",
+  "description": "Building innovative solutions with disruptive technologiess.",
+  "productName": "DIGITAL Flow",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "Mayank Patel",

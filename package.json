@@ -5,10 +5,11 @@
   "productName": "DIGITAL Flow",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
-  "author": "Mayank Patel",
+  "author": "Lionel LEIVA-MARCON",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build-prod": "set NODE_ENV=production&&quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

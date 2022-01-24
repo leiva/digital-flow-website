@@ -66,7 +66,7 @@
                     Working closely with strong partners and highly qualified staff, we deliver your project in a short
                     and efficient way.
                     <br>
-                    Beyond the technological aspects that we bring to you, we like to know well our customers and make
+                    Beyond the technological aspects we bring to you, we like to know well our customers and make
                     human relationships our main priority.
                   </h5>
                 </q-item-section>
@@ -219,8 +219,7 @@
                   <span :style="'color:'+theme_color">Proactive Swiss</span><br><span class="text-overline">External Development Unit</span>
                 </div>
                 <div class="q-mt-md text-h6 text-center">
-                  With more than 20 years of experience in the software field, Proactive Swiss provides the resources, masters the life development cycle and provides support for the products developed.
-                  Its team is motivated and always ready to meet challenges.
+                  ProActive Swiss is our software development partner. In this fast changing sector, ProActive Swiss brings digital innovation with a reliable +20 years experience.
                 </div>
               </q-carousel-slide>
               <q-carousel-slide style="padding-bottom: 140px" name="tv" class="column no-wrap flex-center">

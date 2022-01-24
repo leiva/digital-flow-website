@@ -8,8 +8,8 @@
   "author": "Lionel LEIVA-MARCON",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0",
-    "build-prod": "set NODE_ENV=production&&quasar build"
+    "build": "set NODE_ENV=production&&quasar build",
+    "site" : "git push main --delete gh-pages&&git subtree push --prefix dist/spa main gh-pages"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

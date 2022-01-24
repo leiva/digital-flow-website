@@ -10,7 +10,7 @@
   "scripts": {
     "build": "set NODE_ENV=production&&quasar build",
     "git" : "npm run build && git add . && git commit -m",
-    "site" : "git push && git subtree push --prefix dist/spa main gh-pages"
+    "site" : "git push&&git subtree push --prefix dist/spa main gh-pages"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

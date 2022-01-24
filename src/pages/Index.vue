@@ -14,7 +14,7 @@
                  style="width:120px;min-height:auto !important;color: dodgerblue" label="Services"/>
           <q-tab :style="[selected_tab == 't_3' ? {backgroundColor: theme_color} : {}]"
                  class="q-mr-sm q-py-xs custom_tab" @click="scrollToElement('id_testimonial');"
-                 style="min-height:auto !important;color: dodgerblue" label="Partnership"/>
+                 style="min-height:auto !important;color: dodgerblue" label="Partnerships"/>
           <q-tab :style="[selected_tab == 't_4' ? {backgroundColor: theme_color} : {}]"
                  class="q-mr-sm q-py-xs custom_tab" @click="scrollToElement('id_news');"
                  style="width:120px;min-height:auto !important;color: dodgerblue" label="News"/>
@@ -205,7 +205,7 @@
               swipeable
               animated
               infinite
-              autoplay
+              :autoplay="10000"
               arrows
               navigation
               padding

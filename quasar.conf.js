@@ -12,7 +12,7 @@ module.exports = function (/* ctx */) {
     // --> boot files are part of "main.js"
     // https://quasar.dev/quasar-cli/cli-documentation/boot-files
     boot: [
-      
+
       'i18n',
       'axios',
     ],
@@ -170,7 +170,7 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'vue-quasar-company-profile-website'
+        appId: 'digital-flow-website'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration

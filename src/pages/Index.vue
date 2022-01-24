@@ -65,6 +65,7 @@
                   <h5 class="my-font-IBM text-grey">
                     Working closely with strong partners and highly qualified staff, we deliver your project in a short
                     and efficient way.
+                    <br>
                     Beyond the technological aspects that we bring to you, we like to know well our customers and make
                     human relationships our main priority.
                   </h5>
@@ -81,22 +82,19 @@
           <div class="q-pt-xl full-width full-height text-right" style="background-color: #000000ad !important;">
             <h4 class="my-font-IBM text-white text-center text-italic">
               "Behind each of our achievements, bold minds came together to make them reality" </h4>
+
             <br>
-            <div>
-              <q-item>
-                <q-item-section avatar>
-                  <q-avatar size="96px">
-                    <q-img src="~assets/images/df.jpg"></q-img>
-                  </q-avatar>
-                </q-item-section>
-                <q-item-section class="text-white">
-                  <h5>Lionel Leiva-Marcon, founder</h5>
-                </q-item-section>
 
-              </q-item>
-            </div>
+              <q-chip color="transparent">
+                <q-avatar rounded size="96px">
+                  <q-img  src="~assets/images/df.jpg"></q-img>
+                </q-avatar>
+                <h5 style="color:white">Lionel Leiva-Marcon, founder</h5>
+              </q-chip>
 
+            <br> <br> <br>
           </div>
+
         </div>
 
         <div style="background: #f7f7f7" id="id_services">
@@ -216,17 +214,18 @@
             >
               <q-carousel-slide style="padding-bottom: 140px" name="style" class="column no-wrap flex-center">
                 <img :style="'margin-top:100px;border-radius:5px;border: 4px solid ' + theme_color"
-                     src="~assets/images/team_1.jpg" width=150 height=150>
+                     src="~assets/images/pas.png" width=300 height=200>
                 <div class="q-mt-md text-h6 text-center">
-                  <span :style="'color:'+theme_color">Proactive Swiss</span><br><span class="text-overline">Life Cycle Development</span>
+                  <span :style="'color:'+theme_color">Proactive Swiss</span><br><span class="text-overline">External Development Unit</span>
                 </div>
                 <div class="q-mt-md text-h6 text-center">
-                  Blabla
+                  With more than 20 years of experience in the software field, Proactive Swiss provides the resources, masters the life development cycle and provides support for the products developed.
+                  Its team is motivated and always ready to meet challenges.
                 </div>
               </q-carousel-slide>
               <q-carousel-slide style="padding-bottom: 140px" name="tv" class="column no-wrap flex-center">
                 <img :style="'margin-top:100px;border-radius:5px;border: 4px solid ' + theme_color"
-                     src="~assets/images/dna.jpg" width=150 height=150>
+                     src="~assets/images/dna.jpg" width=300 height=200>
                 <div class="q-mt-md text-h6 text-center">
                   <span :style="'color:'+theme_color">DNA Chain</span><br><span class="text-overline">Project executive and blockchain enthusiastic</span>
                 </div>
@@ -236,15 +235,13 @@
               </q-carousel-slide>
               <q-carousel-slide style="padding-bottom: 140px" name="layers" class="column no-wrap flex-center">
                 <img :style="'margin-top:100px;border-radius:5px;border: 4px solid ' + theme_color"
-                     src="~assets/images/team_3.jpg" width=150 height=150>
+                     src="~assets/images/tchuti.png" width=300 height=200>
                 <div class="q-mt-md text-h6 text-center">
-                  <span :style="'color:'+theme_color">John Doe</span><br><span
-                  class="text-overline">Product Owner</span>
+                  <span :style="'color:'+theme_color">Tchuti</span><br><span
+                  class="text-overline">Executive Director/Curator</span>
                 </div>
                 <div class="q-mt-md text-h6 text-center">
-                  Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut<br>
-                  labore et dolore magna aliqua.
+                  Tchuti provide artistic and curatorial direction while overseeing design, marketing, production, interpretation, outreach, publishing and program evaluation
                 </div>
               </q-carousel-slide>
             </q-carousel>
@@ -297,7 +294,7 @@
                       :style="'color: ' + about_heading_color_2" style="border: none;"
                       class="my-card text-center box-shadow" flat bordered>
                 <q-img
-                  src="~assets/images/about_2.jpg"
+                  src="~assets/images/monumental.png"
                 />
 
                 <q-card-section class="text-left">
@@ -311,7 +308,7 @@
 
                   </div>
                   <div><br>
-                    <q-btn size="sm" :style="'color: negative'" label="SOON AVAILABLE"/>
+                    <q-btn size="sm" :style="'color: dodgerblue'" label="SOON"/>
                   </div>
                 </q-card-section>
               </q-card>

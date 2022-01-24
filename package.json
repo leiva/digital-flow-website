@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "build": "set NODE_ENV=production&&quasar build",
-    "site" : "git push main --delete gh-pages&&git subtree push --prefix dist/spa main gh-pages"
+    "git" : "npm run build && git add . && git commit -m",
+    "site" : "git push && git subtree push --prefix dist/spa main gh-pages"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

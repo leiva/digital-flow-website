@@ -230,7 +230,7 @@
                   <span :style="'color:'+theme_color">DNA Chain</span><br><span class="text-overline">Project executive and blockchain enthusiastic</span>
                 </div>
                 <div class="q-mt-md text-h6 text-center">
-                  DNA Chain is extremely involved on the MONUMENTAL art platform.
+                  DNA Chain is extremely involved on the MONUMENTAL art platform !
                 </div>
               </q-carousel-slide>
               <q-carousel-slide style="padding-bottom: 140px" name="layers" class="column no-wrap flex-center">

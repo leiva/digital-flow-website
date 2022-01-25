@@ -141,7 +141,7 @@
               <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                 <q-item class="box-shadow q-pa-none q-ml-xs q-mr-xs">
                   <q-item-section side :style="'background-color:dodgerblue'" class="q-pa-sm q-mr-none text-white">
-                    <q-icon name="fab fa-wordpress" size="65px"></q-icon>
+                    <q-icon name="3d_rotation" size="65px"></q-icon>
                   </q-item-section>
                   <q-item-section class="q-pa-md q-ml-none">
                     <q-item-label class="text-h6 text-grey-9 text-uppercase">Virtual Reality and Extended Reality

@@ -199,7 +199,7 @@
         <div class="quote" id="id_testimonial">
 
           <div style="background-color: #000000ad !important;">
-            <h5 class="text-center text-white text-weight-bolder">Partnership</h5>
+            <h5 class="text-center text-white text-weight-bolder">Partnerships</h5>
             <q-carousel
               v-model="review_slide"
               swipeable
